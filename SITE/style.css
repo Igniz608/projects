@@ -1,0 +1,307 @@
+:root{
+    --cor-fundo :rgb(26, 0, 61);
+    --cor-hover :rgb(123, 1, 157);
+    --cor-primaria :rgb(221, 179, 255);
+}
+
+.design {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    float: center;
+    position: absolute;
+    margin: 100px;
+    overflow: hidden;
+    color: rgb(203, 203, 203);
+    padding: 11px;
+    padding-bottom: 12px;
+
+
+}
+
+.logomarca {
+    position: relative;
+    float: left;
+    bottom: 20px;
+    left: -50px;
+    border-radius: 18.5%;
+    height: 300px;
+    width: 400px;
+
+}
+
+nav {
+    position: relative;
+    background-color: rgb(115, 39, 39);
+}
+
+.download {
+    width: 100px;
+    height: 25px;
+    bottom: 5;
+    margin-top: -9%;
+    margin-left: 0%;
+}
+.preçohk {
+    width: 100px;
+    height: 25px;
+    bottom: 5;
+    margin-top: -9%;
+    margin-left: 0%;
+}
+
+.logo {
+    margin-top: -7%;
+}
+
+button {
+    background-color: rgb(115, 39, 39);
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+
+button:hover {
+    background-color: rgb(227, 28, 28);
+
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section {
+    background-color: grey;
+    height: 118%;
+    width: 122%;
+}
+
+.titulo {
+    margin-top: 0%;
+
+}
+
+.imgcover {
+    height: 300px;
+    width: 219px;
+
+}
+
+.item {
+    height: 300px;
+    width: 180px;
+    background-color: rgb(156, 195, 195);
+    margin: 30px;
+    bottom: 0;
+}
+
+.item::before {
+    content: "";
+    font-size: 40px;
+    width: 0%;
+    height: 100%;
+    background: rgb(111, 20, 20);
+    position: absolute;
+    z-index: -1;
+    color: aliceblue;
+    transition: width .9s;
+    top: 0;
+    left: 0;
+    border-radius: 10%;
+
+}
+
+.item:hover {
+    zoom: 103%;
+    transition: zoom .5s;
+    margin: 30px;
+    position: relative;
+    background-color: rgba(97, 97, 227, 0.322);
+}
+
+.corpo {
+    display: grid;
+    display: inline-flexbox;
+    margin-bottom: 30%;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    float: center;
+    position: relative;
+
+}
+
+.design::before {
+    content: "";
+    font-size: 40px;
+    width: 0%;
+    height: 100%;
+    background: rgb(154, 35, 35);
+    position: absolute;
+    z-index: -1;
+    color: aliceblue;
+    transition: width .9s;
+    top: 0;
+    left: 0;
+    border-radius: 10%;
+}
+
+.pesquisa {
+    position: relative;
+    top: -20px;
+    height: 2rem;
+    border-radius: 1%;
+    right: -810px;
+
+}
+
+.design:hover::before {
+    width: 100%;
+    background-color: rgb(44, 77, 104);
+    /* cor de animação ida (home, sobre, contato) */
+}
+
+a {
+    z-index: 1;
+}
+
+nav {
+    padding: -5px;
+    background-color: rgba(28, 106, 103, 0.674);
+    /* cor da navegação home, sobre... */
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #17181800;
+    background-size: cover;
+}
+
+.bv {
+    position: relative;
+    background-color: hsl(270, 100%, 30%);
+    /* cor do gamelist */
+    padding: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin: auto;
+    margin-left: 0px;
+    height: 55px;
+    width: auto;
+}
+
+.bv.h1 {
+    margin-left: 4px;
+}
+
+h1 {
+    display: block;
+    position: absolute;
+    font-size: 2em;
+    margin-block-start: 0.40em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0em;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(67, 44, 104);
+    /* cor do corpo exceto nav. e gamelist */
+
+}
+
+.text1 {
+    background: rgba(0, 0, 0, 0.372);
+    color: #ffff;
+    border-radius: 5%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 400px;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.text1::before {
+    background-color: rgba(0, 255, 255, 0.451);
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    zoom: 50%;
+    position: absolute;
+}
+
+.text1:hover::before {
+    zoom: 100%;
+}
+
+.paginas {
+    width: 1465px;
+    display: flex;
+    justify-content: center;
+}
+
+.um {
+    text-align: center;
+    vertical-align: sub;
+    display: inline-block;
+    font-size: 40px;
+    background-color: rgba(35, 92, 119, 0.696);
+    width: 80px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 70px;
+    bottom: 170px;
+    border-radius: 10%;
+    color: rgb(255, 255, 255)
+}
+
+body {
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: hsl(266, 100%, 15%);
+    background-size: cover;
+}
+
+.dp-menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul{
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li{
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.dp-menu ul li a:hover{
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+
+.dp-menu ul ul{
+    display: none;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul{
+    display: block;
+}
