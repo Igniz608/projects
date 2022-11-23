@@ -1,7 +1,7 @@
-:root{
-    --cor-fundo :rgb(26, 0, 61);
-    --cor-hover :rgb(123, 1, 157);
-    --cor-primaria :rgb(221, 179, 255);
+:root {
+    --cor-fundo: rgb(26, 0, 61);
+    --cor-hover: rgb(123, 1, 157);
+    --cor-primaria: rgb(221, 179, 255);
 }
 
 .design {
@@ -42,6 +42,7 @@ nav {
     margin-top: -9%;
     margin-left: 0%;
 }
+
 .preçohk {
     width: 100px;
     height: 25px;
@@ -176,16 +177,20 @@ nav {
     background-color: #17181800;
     background-size: cover;
 }
-
+/*bv= reposável por configurar a barra roxa com titulo da pagina*/
 .bv {
     position: relative;
-    background-color: hsl(270, 100%, 30%);
+    background-color: hsla(270, 75%, 23%, 0.716);
     /* cor do gamelist */
     padding: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     font-size: 1rem;
-    margin: auto;
+    margin: 0%;
+    margin-top: 1.5%;
+    margin-bottom: 0%;
     margin-left: 0px;
     height: 55px;
     width: auto;
@@ -252,7 +257,7 @@ body {
     vertical-align: sub;
     display: inline-block;
     font-size: 40px;
-    background-color: rgba(35, 92, 119, 0.696);
+    background-color: hsla(270, 75%, 23%, 0.716);
     width: 80px;
     height: 50px;
     margin-left: 10px;
@@ -266,42 +271,72 @@ body {
     background-image: url();
     background-position: center;
     background-repeat: no-repeat;
-    background-color: hsl(266, 100%, 15%);
+    background-color: hsla(270, 33%, 7%, 0.987);
     background-size: cover;
 }
 
-.dp-menu ul{
-    list-style-type: none;
+
+
+
+
+
+/* DAQUI PRA BAIXO FOI SO UM TESTE */
+
+
+/* 
+* {
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-.dp-menu ul{
-    background-color: var(--cor-fundo);
+nav {
+    background-color: #019886;
+    text-align: center;
 }
 
-.dp-menu ul li{
-    display: inline;
-    position: relative;
+nav ul {
+    display: inline-flex;
+    list-style: none;
+
 }
 
-.dp-menu ul li a{
-    color: var(--cor-primaria);
+nav ul li {
+    width: 120px;
+    margin: 14px;
+    padding: 15px;
+
+}
+
+nav ul li a {
     text-decoration: none;
-    display: inline-block;
-    padding: 10px;
+    color: white;
 }
 
-.dp-menu ul li a:hover{
-    background-color: var(--cor-hover);
-}
-
-/*sub menu*/
-
-.dp-menu ul ul{
+.sub-menu-1 {
     display: none;
-    position: absolute;
 }
 
-.dp-menu ul li:hover ul{
+nav ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: #019886;
+    margin-top: 15px;
+    margin-left: -38px;
+}
+
+nav ul li:hover .sub-menu-1 ul {
     display: block;
 }
+
+nav ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+nav ul li:hover .sub-menu-1 ul li:hover {
+    background-color: #025e68;
+} */
